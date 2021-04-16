@@ -1,8 +1,8 @@
 # Correlation_Analysis_Feature_extraction
 
-In this notebook, I'm striving to **build combined features as correlated as possible** with a particular target. To do so, I will first analyze correlation coefficients between features in the raw data space and then apply dimensionality reduction techniques such as **Principal Component Analysis (PCA) and Canonical Correlation Analysis (CCA)** to extract new combined features.
+In this notebook, I'm aiming to **build combined features as correlated as possible** with a particular target. To do so, I will first analyze correlation coefficients between features in the raw data space and then apply dimensionality reduction techniques such as **Principal Component Analysis (PCA) and Canonical Correlation Analysis (CCA)** to extract new combined features.
 
-The final dataset (after cleaning and merging operations), contains for each country: its energy indicators (Energy Supply, % Renewable,...), its GDP and some statistics regarding energy-related documents that have been published by this country. In these statistics, there are the amount of released documents in Energy, the amount of citations that those documents have been subject to... The amount of documents is what we will target in a first place.
+The final dataset (after cleaning and merging operations), contains for each country: its energy indicators (Energy Supply, % Renewable,...), its GDP and some statistics regarding energy-related documents that have been published by this country. In these statistics, there are the amount of released documents in Energy, the amount of quotes that those documents have been subject to... The amount of documents is what we will target to begin with.
 
 ### Datasets :
 
